@@ -4,7 +4,8 @@ const App = () => {
 
   const handleInput = (event) =>{
    // use console.log
-   console.log(event.target.value);
+   const str = event.target.value;
+   console.log(str);
   }
 
   // do not change id of input elements
